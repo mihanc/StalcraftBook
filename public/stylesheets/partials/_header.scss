@@ -1,0 +1,12 @@
+@import '../helpers/variables';
+
+.header {
+  background-color: $black;
+  padding: 20px 0;
+  color: $white;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+}

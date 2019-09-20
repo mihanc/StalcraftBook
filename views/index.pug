@@ -1,5 +1,36 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  main.main
+      .container
+          .row
+              article.article-preview
+                a(href='#').article-preview__wrapper
+                    .article-preview__image-wrapper
+                        img(src="https://i.ibb.co/q9tFnvN/story1.jpg").article-preview__image
+                    p.article-preview__name
+                        | История бродяги: часть 1
+                    p.article-preview__text
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        | labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        | nisi ut aliquip ex ea commodo consequat
+                    .article-preview__meta
+                        p.article-preview__rate
+                            | Рейтинг: 10
+                        p.article-preview__author
+                            | Автор: EnclaveStalker
+              article.article-preview
+                  a(href='#').article-preview__wrapper
+                      .article-preview__image-wrapper
+                          img(src="https://via.placeholder.com/315x250").article-preview__image
+                      p.article-preview__name
+                          | Lorem ipsum dolor sit amet
+                      p.article-preview__text
+                          | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          | labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                          | nisi ut aliquip ex ea commodo consequat
+                      .article-preview__meta
+                          p.article-preview__rate
+                              | Рейтинг: 10
+                          p.article-preview__author
+                              | Автор: EnclaveStalker
